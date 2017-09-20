@@ -29,10 +29,3 @@ function pearson = PearsonValue(vec1, vec2)
    endif
   
 endfunction
-
-
-#v = [31   30   27   75]
-#r = [30   60   40   80]
-#f = [41   26   28    2]
-
-#PearsonValue(v, f)
