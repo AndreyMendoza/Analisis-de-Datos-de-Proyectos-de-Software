@@ -19,8 +19,16 @@ MTF = PearsonMat(T, F);
 MCF = PearsonMat(C, F);
 
 # Dibujar los diagramas de dispersión entre T y F 
-PearsonDiagrams(T, F, LT, LF);
+# PearsonDiagrams(T, F, LT, LF);
 
 # Dibujar los diagramas de dispersión entre C y F 
 # PearsonDiagrams(C, F, LC, LF);
+
+# Histograma para las variables en T
+# Histograms(T, LT);
   
+# Histograma para las variables en C
+# Histograms(C, LC);
+
+# Histograma para las variables en F
+# Histograms(F, LF);
